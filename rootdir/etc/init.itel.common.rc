@@ -1,0 +1,7 @@
+on boot
+    chmod 0664 /sys/devices/platform/soc/soc:ap-ahb/20200000.usb/host_enable
+    chown system system /sys/devices/platform/soc/soc:ap-ahb/20200000.usb/host_enable
+    chmod 0664 /sys/devices/platform/soc/soc:ap-ahb/20200000.usb/otg_status
+    chown system system /sys/devices/platform/soc/soc:ap-ahb/20200000.usb/otg_status
+    chmod 0664 /sys/devices/platform/soc/soc:ap-ahb/20200000.usb/is_support_otg
+    chown system system /sys/devices/platform/soc/soc:ap-ahb/20200000.usb/is_support_otg
